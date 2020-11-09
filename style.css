@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Titillium+Web:wght@400;900&display=swap');
 
 * {
-    font-family: "Titillium Web";
+    font-family: "Exo 2";
 }
 
 body {
@@ -10,8 +10,8 @@ body {
 }
 
 .content {
-    max-width: 600px;
-    padding: 100px;
+    max-width: 800px;
+    padding: 120px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -29,13 +29,14 @@ h2 {
 }
 
 .btn {
-    font-family: "Exo 2", sans-serif;
+    font-family: "Exo 2";
     height: 40px;
     width: 100px;
     font-size: .9rem;
     color: #000;
     background-color: #7F7F7F;
     border-radius: 10px;
+    font-weight: 900;
 }
 
 .card {

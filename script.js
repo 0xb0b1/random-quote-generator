@@ -34,12 +34,12 @@ function displayQuote() {
     let index = getRandomInt(quotes.length)
 
     let div = document.querySelector('#quote')
-    let quote = `<div class="card">
-                <img src="icons/favicon.png">
-                <p>${quotes[index]}</p> <!--random quote string-->
-                <img src="icons/favicon.png">
-                </div> `
-    div.innerHTML = quote
+
+    div.innerHTML = `<div class="card">
+                        <img src="icons/favicon.png">
+                            <p>${quotes[index]}</p>
+                        <img src="icons/favicon.png"
+                    </div>`
 
 }
 
