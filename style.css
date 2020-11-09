@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Titillium+Web:wght@400;900&display=swap');
+
+* {
+    font-family: "Titillium Web";
+}
+
+body {
+    background: url("./images/background.jpg");
+    background-size: cover;
+}
+
+.content {
+    max-width: 600px;
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    background-color: #aaa;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+}
+
+.btn {
+    font-family: "Exo 2", sans-serif;
+    height: 40px;
+    width: 100px;
+    font-size: .9rem;
+    color: #000;
+    background-color: #7F7F7F;
+    border-radius: 10px;
+}
+
+.card {
+    padding: 15px 30px 15px 30px;
+    margin: 15px 30px 15px 30px;
+    width: 500px;  
+    max-height: 300px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .7);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+    .card {
+        font-size: 3.6vw;
+        width: 60vw;
+    }
+
+    .btn {
+        font-size: .6rem;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+}
+
+button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+}
